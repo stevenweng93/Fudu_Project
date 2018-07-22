@@ -44,7 +44,7 @@
 }
 
 .navbar-nav {
-	margin-right: 50% !important; 
+	margin-right: 45% !important; 
 }
 .navbar-margin {
 	height: 75px;
@@ -57,6 +57,7 @@
 .nav-item {
 	padding-top: 39px;
 	font-size: 1.2rem;
+	margin-left: 10px;
 }
 
 
