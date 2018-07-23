@@ -56,12 +56,53 @@
 
 .nav-item {
 	padding-top: 39px;
-	font-size: 1.2rem;
+	font-size:  1.2rem;
 	margin-left: 10px;
+
 }
 
 
 @media screen and (min-width: 375px) {
+
+.demo a {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  z-index: 2;
+  display: inline-block;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  color: #fff;
+  font : normal 400 20px/1 'Josefin Sans', sans-serif;
+  letter-spacing: .1em;
+  text-decoration: none;
+  transition: opacity .3s;
+}
+#section01 a:hover {
+  opacity: 0.3;
+}
+
+
+
+#section01 a {
+  padding-top: 40px;
+  color: #fff;
+  opacity: 0.6;
+}
+
+#section01 a span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 5px solid #fff;
+  border-bottom: 5px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  box-sizing: border-box;
+}
 
 
 .table-bar-container {
@@ -80,7 +121,7 @@
 .leftBar {
 	background: #ffffff;
 	letter-spacing: 2px;
-	padding: 5px 35px;
+	padding: 15px 35px;
 	box-shadow: 0 0 20px 2px hsla(0,0%,64%,.2);
 }
 

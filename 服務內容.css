@@ -1,3 +1,12 @@
+.服務-banner {
+	background-image: url('新大觀外觀.jpg');
+	height: calc(100vh);
+	background-size: cover;
+	background-position: 0% 90%;
+	background-attachment: fixed;
+}
+
+
 .服務內容標題 {
 	position: absolute;
 	z-index: 1;
@@ -5,17 +14,10 @@
 	font-size: 3.7rem;
 	font-weight: 800;
 	color: #fff;
-	margin: 8.5% 3%;
+	margin-top: 370px;
 	text-shadow: 0px 2px 3px #eee;
-}
-
-
-.fuwu-banner {
-	background-image: url('塔吊.png');
-	height: 250px;
-	background-size: cover;
-/*	background-position: 20% 0%;
-	background-attachment: fixed;*/
+	padding: 10px 100px;
+	background-color: rgba(89,89,89,0.7);
 }
 
 .塔吊 {
